@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morning Routine</title>
+  <style>
+    body {
+      background-color: #D6EAF8;
+      color: #2C3E50;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    button {
+      padding: 1em 2.5em;
+      font-size: 1rem;
+      font-weight: 700;
+      background-color: #F5CBA7;
+      border: none;
+      color: #2C3E50;
+      transition: .4s all ease-in;
+    }
+
+    button:hover {
+      background-color: #2C3E50;
+      color: #F5CBA7;
+      cursor: pointer;
+    }
+
+    .item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 2em;
+    }
+
+    li {
+      list-style-type: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Morning Routine</h1>
+  <div>
+    <button class="btn" onclick="routine()">Click</button>
+    <div class="item"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
